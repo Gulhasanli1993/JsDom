@@ -8,4 +8,49 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#jsDom .box {
+  width: 270px;
+  height: 250px;
+  background-color: #9c6644;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+#jsDom .box h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+#jsDom .box input {
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 18px;
+  color: #6c7480;
+}
+#jsDom .box .btn {
+  width: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #jsDom .box {
+    width: 200px;
+    height: 180px;
+  }
+  #jsDom .box h1 {
+    font-size: 30px;
+  }
+  #jsDom .box input {
+    width: 150px;
+    padding: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
