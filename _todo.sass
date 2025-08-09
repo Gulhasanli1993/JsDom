@@ -1,14 +1,13 @@
-#jsDom
+#todo
     .box
         width: 270px
         height: 250px
         background-color: #9c6644
         border-radius: 20px
-        display: flex
-        justify-content: center
-        align-items: center
-        flex-direction: column
-        margin-top: 30px
+        padding: 20px 10px
+        margin-top: 20px
+        text-align: center
+
         .textbox
             h1
                 color: #ffff
@@ -24,17 +23,28 @@
                 color: #6c7480
         .btn
             width: 80px
-            padding: 10px
             border-radius: 20px
             background-color: #ffff
             text-align: center
 
+    .minibox
+        width: 200px
+        padding: 20px
+        border-radius: 20px
+        margin-top: 20px
+        text-align: center
+        border: 2px solid #6c7480
+
     @media screen and ( max-width: 768px )
         .box
             width: 200px
-            height: 180px
+            height: 190px
+
             h1
                 font-size: 30px
-            input
-                width: 150px
-                padding: 10px
+            .add
+                input
+                    width: 150px
+                    padding: 10px
+        .minibox
+            width: 130px

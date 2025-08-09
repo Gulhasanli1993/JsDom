@@ -10,23 +10,21 @@ a:hover {
   color: black;
 }
 
-#jsDom .box {
+#todo .box {
   width: 270px;
   height: 250px;
   background-color: #9c6644;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 30px;
+  padding: 20px 10px;
+  margin-top: 20px;
+  text-align: center;
 }
-#jsDom .box .textbox h1 {
+#todo .box .textbox h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
 }
-#jsDom .box .add input {
+#todo .box .add input {
   width: 200px;
   padding: 20px;
   border-radius: 20px;
@@ -34,23 +32,33 @@ a:hover {
   font-size: 18px;
   color: #6c7480;
 }
-#jsDom .box .btn {
+#todo .box .btn {
   width: 80px;
-  padding: 10px;
   border-radius: 20px;
   background-color: white;
   text-align: center;
 }
+#todo .minibox {
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid #6c7480;
+}
 @media screen and (max-width: 768px) {
-  #jsDom .box {
+  #todo .box {
     width: 200px;
-    height: 180px;
+    height: 190px;
   }
-  #jsDom .box h1 {
+  #todo .box h1 {
     font-size: 30px;
   }
-  #jsDom .box input {
+  #todo .box .add input {
     width: 150px;
     padding: 10px;
+  }
+  #todo .minibox {
+    width: 130px;
   }
 }/*# sourceMappingURL=style.css.map */
