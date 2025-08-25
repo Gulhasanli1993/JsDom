@@ -4,11 +4,12 @@ $(document).ready(function () {
         e.preventDefault();
         if (!$('input').trim(val()) == '') {
             let a = b => {
-                for (let i = 0; i < b; i++) { $('.minibox').append(`<h2>${b}</h2>`); }
+                for (let b = 0; i < b; i++) { $('.minibox').append(`<h2>${b}</h2>`); }
             }
-            let v = f => f() ? a : $('.minibox').append(`<h2>${f}</h2>`);
+            let v = f => Number(a) ? $('.minibox').append(`<h2>${b}</h2>`) : $('.minibox').append(`<h2>${f}</h2>`);
             v($('input').val());
         }
-        $('input').val()
+        a($('input').val())
+
     })
 });
